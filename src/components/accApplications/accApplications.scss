@@ -1,0 +1,21 @@
+.user-applications-header {
+    padding: 1.24rem;
+    & div {
+        font-weight: 600;
+    }
+}
+.user-applications-application{
+    padding: 1.24rem;
+
+    & .applications-application-id {
+        font-weight: 600;
+    }
+
+    &:nth-child(even) {
+        background-color: #f1f1f1;
+    }
+
+    .bi-pencil-fill {
+        cursor: pointer;
+    }
+}
