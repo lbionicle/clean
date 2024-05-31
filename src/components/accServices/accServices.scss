@@ -1,17 +1,17 @@
-.user-applications-header {
+.admin-services-header {
     padding: 1.25rem;
     & div {
         font-weight: 600;
     }
 }
-.user-applications-application{
+.admin-services-service{
     padding: 1.25rem;
 
     & i {
         cursor: pointer;
     }
 
-    & .applications-application-id {
+    & .services-service-id {
         font-weight: 600;
     }
 
@@ -19,7 +19,7 @@
         background-color: #f1f1f1;
     }
 
-    .bi-pencil-fill {
+    .bi-pencil {
         cursor: pointer;
     }
 }

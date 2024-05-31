@@ -1,17 +1,17 @@
-.user-applications-header {
+.admin-clients-header {
     padding: 1.25rem;
     & div {
         font-weight: 600;
     }
 }
-.user-applications-application{
+.admin-clients-client{
     padding: 1.25rem;
 
     & i {
         cursor: pointer;
     }
 
-    & .applications-application-id {
+    & .clients-client-id {
         font-weight: 600;
     }
 

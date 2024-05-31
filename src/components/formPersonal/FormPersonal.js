@@ -6,9 +6,9 @@ import "./formPersonal.scss"
 const FormPersonal = () => {
 
     return (
-        <div style={{padding: "10rem 0 5rem 0", flex: "1 0 auto"}} className="d-flex flex-column justify-conttent-center align-items-center text-center">
-            <h3 style={{fontWeight: 600}}>Редактирование данных</h3>
-            <form id="authLogin" className="wrapper-reg-form col-3 my-4 text-start" action="">
+        <div style={{padding: "10rem 0 5rem 0", flex: "1 0 auto"}} className="d-flex flex-column justify-conttent-center align-items-center text-start">
+            <h3 className="col-12" style={{fontWeight: 600}}>Редактирование данных</h3>
+            <form id="authLogin" className="wrapper-reg-form col-12 my-4" action="">
                 <div className="col-12 my-2">
                     <label htmlFor="form-firstName">Имя <span className="text-danger">*</span></label>
                     <input id="form-firstName" name="firstName" className="form-control" type="text" placeholder="Иван" required />
